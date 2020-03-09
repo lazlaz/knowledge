@@ -1,4 +1,4 @@
-package com.laz.knowledge;
+package com.laz.knowledge.one;
 
 /**
 发件人应该将数据分组发送到接收器

@@ -1,4 +1,4 @@
-package com.laz.knowledge;
+package com.laz.knowledge.one;
 
 import java.util.concurrent.ThreadLocalRandom;
 
