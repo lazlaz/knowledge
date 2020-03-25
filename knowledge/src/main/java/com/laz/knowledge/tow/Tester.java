@@ -10,5 +10,8 @@ public class Tester implements ITester {
 	public void doTesting() {
 		System.out.println("Tester " + name + " is testing code");
 	}
-
+	
+	public void doTest2() {
+		System.out.println("dd");
+	}
 }

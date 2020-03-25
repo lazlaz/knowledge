@@ -17,7 +17,8 @@ public class EnginnerCGLibProxy {
 			@Override
 			public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
 				System.out.println("Enginner 2 writes document");
-				Object res = method.invoke(target, args);
+			//	Object res = method.invoke(target, args);
+				Object res =proxy.invokeSuper(obj, args);
 				return res;
 			}
 		});
