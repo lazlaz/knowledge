@@ -24,6 +24,7 @@ public class NioServer {
         //将通道管理器与通道绑定，并为该通道注册SelectionKey.OP_ACCEPT事件，
         //只有当该事件到达时，Selector.select()会返回，否则一直阻塞。
         serverChannel.register(selector, SelectionKey.OP_ACCEPT);
+        System.out.println("---");
         return this;
     }
     
