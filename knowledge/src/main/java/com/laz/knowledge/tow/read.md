@@ -1,2 +1,1 @@
-#Java¶¯Ì¬´úÀí£¨»ùÓÚJDK)
-Í¨¹ýInvocationHandlerÊµÏÖ£¬±»´úÀíµÄÀà±ØÐëÊµÏÖÄ³Ò»¸ö½Ó¿Ú
+#JavaåŠ¨æ€ä»£ç†ï¼ˆåŸºäºŽJDK) é€šè¿‡InvocationHandlerå®žçŽ°ï¼Œè¢«ä»£ç†çš„ç±»å¿…é¡»å®žçŽ°æŸä¸€ä¸ªæŽ¥å£
