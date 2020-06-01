@@ -1,6 +1,6 @@
 package com.laz.knowledge.three;
 
-import com.laz.knowledge.tow.ProductOwner;
+import com.laz.knowledge.two.ProductOwner;
 
 public class Main {
 	public static void main(String[] args) {

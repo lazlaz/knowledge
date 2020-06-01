@@ -1,4 +1,4 @@
-package com.laz.knowledge.tow;
+package com.laz.knowledge.two;
 
 public class Main {
 	public static void main(String[] args) {
