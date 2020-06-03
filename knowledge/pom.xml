@@ -68,6 +68,21 @@
     <artifactId>quartz</artifactId>
     <version>2.3.0</version>
 </dependency>
+<dependency>
+    <groupId>org.tmatesoft.svnkit</groupId>
+    <artifactId>svnkit</artifactId>
+    <version>1.10.1</version>
+</dependency>
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.17</version>
+</dependency>
+<dependency>  
+  <groupId>org.slf4j</groupId> 
+  <artifactId>slf4j-nop</artifactId> 
+  <version>1.7.2</version> 
+</dependency>
  </dependencies>
  
  <build>
