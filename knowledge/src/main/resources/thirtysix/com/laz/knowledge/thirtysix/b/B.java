@@ -1,4 +1,4 @@
-package com.laz.knowledge.thirtysix;
+package com.laz.knowledge.thirtysix.b;
 
 public class B {
 	public int add(int a,int b) {
