@@ -20,7 +20,7 @@ public class TestMain {
 	public static void main(String[] args) throws MalformedURLException, ClassNotFoundException, IllegalAccessException, IllegalArgumentException, InvocationTargetException, InstantiationException {
 		URL[] urls = new URL[1];
 		urls[0] = new File("src/main/resources/thirtysix/").toURI().toURL();
-		URLClassLoader url = new URLClassLoader(urls);
+		MyURLClassLoader url = new MyURLClassLoader(urls);
 		String className = "com.laz.knowledge.thirtysix.A";
 		Class c = url.loadClass(className);
 		Method[] ms = c.getMethods();
