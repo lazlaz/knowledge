@@ -42,8 +42,9 @@ public class HelloWorldClient {
 						System.out.println("--");
 						ChannelPipeline pipeline = socketChannel.pipeline();
 						pipeline.addLast(new LineBasedFrameDecoder(2048));     //字节解码器 ,其中2048是规定一行数据最大的字节数。  用于解决拆包问题
-						pipeline.addLast("decoder", new StringDecoder());// 字符串解码和编码
 						pipeline.addLast("encoder", new StringEncoder());
+						
+						pipeline.addLast("decoder", new StringDecoder());// 字符串解码和编码
 						pipeline.addLast("handler", new ChannelInboundHandlerAdapter(){
 							
 							@Override
