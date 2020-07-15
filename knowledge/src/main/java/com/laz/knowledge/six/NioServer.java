@@ -10,56 +10,56 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
 public class NioServer {
-	 //Í¨µÀ¹ÜÀíÆ÷
+	 //Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     private Selector selector;
     
-    //»ñÈ¡Ò»¸öServerSocketÍ¨µÀ£¬²¢³õÊ¼»¯Í¨µÀ
+    //ï¿½ï¿½È¡Ò»ï¿½ï¿½ServerSocketÍ¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Í¨ï¿½ï¿½
     public NioServer init(int port) throws IOException{
-        //»ñÈ¡Ò»¸öServerSocketÍ¨µÀ
+        //ï¿½ï¿½È¡Ò»ï¿½ï¿½ServerSocketÍ¨ï¿½ï¿½
         ServerSocketChannel serverChannel = ServerSocketChannel.open();
         serverChannel.configureBlocking(false);
         serverChannel.socket().bind(new InetSocketAddress(port));
-        //»ñÈ¡Í¨µÀ¹ÜÀíÆ÷
+        //ï¿½ï¿½È¡Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         selector=Selector.open();
-        //½«Í¨µÀ¹ÜÀíÆ÷ÓëÍ¨µÀ°ó¶¨£¬²¢Îª¸ÃÍ¨µÀ×¢²áSelectionKey.OP_ACCEPTÊÂ¼þ£¬
-        //Ö»ÓÐµ±¸ÃÊÂ¼þµ½´ïÊ±£¬Selector.select()»á·µ»Ø£¬·ñÔòÒ»Ö±×èÈû¡£
+        //ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ó¶¨£ï¿½ï¿½ï¿½Îªï¿½ï¿½Í¨ï¿½ï¿½×¢ï¿½ï¿½SelectionKey.OP_ACCEPTï¿½Â¼ï¿½ï¿½ï¿½
+        //Ö»ï¿½Ðµï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Selector.select()ï¿½á·µï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ö±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         serverChannel.register(selector, SelectionKey.OP_ACCEPT);
         System.out.println("---");
         return this;
     }
     
     public void listen() throws IOException{
-        System.out.println("·þÎñÆ÷¶ËÆô¶¯³É¹¦");
+        System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¹ï¿½");
         
-        //Ê¹ÓÃÂÖÑ¯·ÃÎÊselector
+        //Ê¹ï¿½ï¿½ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½selector
         while(true){
-            //µ±ÓÐ×¢²áµÄÊÂ¼þµ½´ïÊ±£¬·½·¨·µ»Ø£¬·ñÔò×èÈû¡£
-        	System.out.println("µÈ´ý");
+            //ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        	System.out.println("ï¿½È´ï¿½");
             selector.select();
-            System.out.println("»ñÈ¡ÊÂ¼þ");
-            //»ñÈ¡selectorÖÐµÄµü´úÆ÷£¬Ñ¡ÖÐÏîÎª×¢²áµÄÊÂ¼þ
+            System.out.println("ï¿½ï¿½È¡ï¿½Â¼ï¿½");
+            //ï¿½ï¿½È¡selectorï¿½ÐµÄµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½Îª×¢ï¿½ï¿½ï¿½ï¿½Â¼ï¿½
             Iterator<SelectionKey> ite=selector.selectedKeys().iterator();
             
             while(ite.hasNext()){
                 SelectionKey key = ite.next();
-                //É¾³ýÒÑÑ¡key£¬·ÀÖ¹ÖØ¸´´¦Àí
+                //É¾ï¿½ï¿½ï¿½ï¿½Ñ¡keyï¿½ï¿½ï¿½ï¿½Ö¹ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½
                 ite.remove();
-                //¿Í»§¶ËÇëÇóÁ¬½ÓÊÂ¼þ
+                //ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½
                 if(key.isAcceptable()){
                     ServerSocketChannel server = (ServerSocketChannel)key.channel();
-                    //»ñµÃ¿Í»§¶ËÁ¬½ÓÍ¨µÀ
+                    //ï¿½ï¿½Ã¿Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½
                     SocketChannel channel = server.accept();
                     channel.configureBlocking(false);
-                    //Ïò¿Í»§¶Ë·¢ÏûÏ¢
-                    channel.write(ByteBuffer.wrap(new String("send message to client").getBytes()));
-                    //ÔÚÓë¿Í»§¶ËÁ¬½Ó³É¹¦ºó£¬Îª¿Í»§¶ËÍ¨µÀ×¢²áSelectionKey.OP_READÊÂ¼þ¡£
+                    //ï¿½ï¿½Í»ï¿½ï¿½Ë·ï¿½ï¿½ï¿½Ï¢
+                   // channel.write(ByteBuffer.wrap(new String("send message to client").getBytes()));
+                    //ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó³É¹ï¿½ï¿½ï¿½Îªï¿½Í»ï¿½ï¿½ï¿½Í¨ï¿½ï¿½×¢ï¿½ï¿½SelectionKey.OP_READï¿½Â¼ï¿½ï¿½ï¿½
                     channel.register(selector, SelectionKey.OP_READ);
                     
-                    System.out.println("¿Í»§¶ËÇëÇóÁ¬½ÓÊÂ¼þ");
-                }else if(key.isReadable()){//ÓÐ¿É¶ÁÊý¾ÝÊÂ¼þ
-                    //»ñÈ¡¿Í»§¶Ë´«ÊäÊý¾Ý¿É¶ÁÈ¡ÏûÏ¢Í¨µÀ¡£
+                    System.out.println("ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½");
+                }else if(key.isReadable()){//ï¿½Ð¿É¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½
+                    //ï¿½ï¿½È¡ï¿½Í»ï¿½ï¿½Ë´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¿É¶ï¿½È¡ï¿½ï¿½Ï¢Í¨ï¿½ï¿½ï¿½ï¿½
                     SocketChannel channel = (SocketChannel)key.channel();
-                    //´´½¨¶ÁÈ¡Êý¾Ý»º³åÆ÷
+                    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½Ý»ï¿½ï¿½ï¿½ï¿½ï¿½
                     ByteBuffer buffer = ByteBuffer.allocate(100);
                     int read = channel.read(buffer);
                     byte[] data = buffer.array();

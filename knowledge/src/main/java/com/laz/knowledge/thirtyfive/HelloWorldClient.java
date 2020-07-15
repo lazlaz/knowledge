@@ -1,5 +1,7 @@
 package com.laz.knowledge.thirtyfive;
 
+import java.util.concurrent.ThreadFactory;
+
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
@@ -14,6 +16,7 @@ import io.netty.channel.socket.nio.NioSocketChannel;
 import io.netty.handler.codec.LineBasedFrameDecoder;
 import io.netty.handler.codec.string.StringDecoder;
 import io.netty.handler.codec.string.StringEncoder;
+import io.netty.util.internal.SystemPropertyUtil;
 
 public class HelloWorldClient {
 
@@ -26,7 +29,10 @@ public class HelloWorldClient {
 	}
 
 	public void start() {
-		EventLoopGroup group = new NioEventLoopGroup();
+		int count = Math.max(1, SystemPropertyUtil.getInt(
+                "io.netty.eventLoopThreads", Runtime.getRuntime().availableProcessors() * 2));
+		MyThreadFactory f = new MyThreadFactory();
+		EventLoopGroup group = new NioEventLoopGroup(count,f);
 		Bootstrap bootstrap = new Bootstrap();
 		bootstrap.group(group).channel(NioSocketChannel.class)
 				.handler(new ChannelInitializer<SocketChannel>(){
@@ -52,7 +58,8 @@ public class HelloWorldClient {
 			ChannelFuture future = bootstrap.connect(address,port).sync();
 			Channel channel = future.channel();
 			channel.writeAndFlush("我是客户端,地址:" + channel.remoteAddress());
-			channel.closeFuture().sync();
+			channel.close();
+//			channel.closeFuture().sync();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {

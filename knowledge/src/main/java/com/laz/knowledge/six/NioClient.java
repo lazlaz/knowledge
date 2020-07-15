@@ -9,51 +9,51 @@ import java.nio.channels.SocketChannel;
 import java.util.Iterator;
 
 public class NioClient {
-	//¹ÜµÀ¹ÜÀíÆ÷
+	//ï¿½Üµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     private Selector selector;
     
     public NioClient init(String serverIp, int port) throws IOException{
-        //»ñÈ¡socketÍ¨µÀ
+        //ï¿½ï¿½È¡socketÍ¨ï¿½ï¿½
         SocketChannel channel = SocketChannel.open();
         
         channel.configureBlocking(false);
-        //»ñµÃÍ¨µÀ¹ÜÀíÆ÷
+        //ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         selector=Selector.open();
         
-        //¿Í»§¶ËÁ¬½Ó·þÎñÆ÷£¬ÐèÒªµ÷ÓÃchannel.finishConnect();²ÅÄÜÊµ¼ÊÍê³ÉÁ¬½Ó¡£
+        //ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½channel.finishConnect();ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½
         channel.connect(new InetSocketAddress(serverIp, port));
-        //Îª¸ÃÍ¨µÀ×¢²áSelectionKey.OP_CONNECTÊÂ¼þ
+        //Îªï¿½ï¿½Í¨ï¿½ï¿½×¢ï¿½ï¿½SelectionKey.OP_CONNECTï¿½Â¼ï¿½
         channel.register(selector, SelectionKey.OP_CONNECT);
         return this;
     }
     
     public void listen() throws IOException{
-        System.out.println("¿Í»§¶ËÆô¶¯");
-        //ÂÖÑ¯·ÃÎÊselector
+        System.out.println("ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+        //ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½selector
         while(true){
-            //Ñ¡Ôñ×¢²á¹ýµÄio²Ù×÷µÄÊÂ¼þ(µÚÒ»´ÎÎªSelectionKey.OP_CONNECT)
+            //Ñ¡ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ioï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½(ï¿½ï¿½Ò»ï¿½ï¿½ÎªSelectionKey.OP_CONNECT)
             selector.select();
             Iterator<SelectionKey> ite = selector.selectedKeys().iterator();
             while(ite.hasNext()){
                 SelectionKey key = ite.next();
-                //É¾³ýÒÑÑ¡µÄkey£¬·ÀÖ¹ÖØ¸´´¦Àí
+                //É¾ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½keyï¿½ï¿½ï¿½ï¿½Ö¹ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½
                 ite.remove();
                 if(key.isConnectable()){
                     SocketChannel channel=(SocketChannel)key.channel();
                     
-                    //Èç¹ûÕýÔÚÁ¬½Ó£¬ÔòÍê³ÉÁ¬½Ó
+                    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
                     if(channel.isConnectionPending()){
                         channel.finishConnect();
                     }
                     
                     channel.configureBlocking(false);
-                    //Ïò·þÎñÆ÷·¢ËÍÏûÏ¢
+                    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
                     channel.write(ByteBuffer.wrap(new String("send message to server.").getBytes()));
                     
-                    //Á¬½Ó³É¹¦ºó£¬×¢²á½ÓÊÕ·þÎñÆ÷ÏûÏ¢µÄÊÂ¼þ
+                    //ï¿½ï¿½ï¿½Ó³É¹ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½Õ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½Â¼ï¿½
                     channel.register(selector, SelectionKey.OP_READ);
-                    System.out.println("¿Í»§¶ËÁ¬½Ó³É¹¦");
-                }else if(key.isReadable()){ //ÓÐ¿É¶ÁÊý¾ÝÊÂ¼þ¡£
+                    System.out.println("ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó³É¹ï¿½");
+                }else if(key.isReadable()){ //ï¿½Ð¿É¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½
                     SocketChannel channel = (SocketChannel)key.channel();
                     
                     ByteBuffer buffer = ByteBuffer.allocate(10);
@@ -62,6 +62,7 @@ public class NioClient {
                     String message = new String(data);
                     
                     System.out.println("recevie message from server:, size:" + buffer.position() + " msg: " + message);
+                    channel.close();
 //                    ByteBuffer outbuffer = ByteBuffer.wrap(("client.".concat(msg)).getBytes());
 //                    channel.write(outbuffer);
                 }
