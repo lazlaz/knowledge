@@ -124,12 +124,17 @@
 			<artifactId>netty-all</artifactId>
 			<version>4.1.25.Final</version>
 		</dependency>
-<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
-<dependency>
-    <groupId>commons-codec</groupId>
-    <artifactId>commons-codec</artifactId>
-    <version>1.14</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+			<version>1.14</version>
+		</dependency>
+		<dependency>
+			<groupId>co.paralleluniverse</groupId>
+			<artifactId>quasar-core</artifactId>
+			<version>0.4.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -140,28 +145,10 @@
 				<version>1.4.1.Final</version>
 			</extension>
 		</extensions>
-		<!-- 
-		<plugins>
-			<plugin>
-				<groupId>org.xolstice.maven.plugins</groupId>
-				<artifactId>protobuf-maven-plugin</artifactId>
-				<version>0.5.0</version>
-				<configuration>
-					<protocArtifact>
-						com.google.protobuf:protoc:3.6.0:exe:${os.detected.classifier}
-					</protocArtifact>
-					<pluginId>grpc-java</pluginId>
-				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>compile</goal>
-							<goal>compile-custom</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-		 -->
+		<!-- <plugins> <plugin> <groupId>org.xolstice.maven.plugins</groupId> <artifactId>protobuf-maven-plugin</artifactId> 
+			<version>0.5.0</version> <configuration> <protocArtifact> com.google.protobuf:protoc:3.6.0:exe:${os.detected.classifier} 
+			</protocArtifact> <pluginId>grpc-java</pluginId> </configuration> <executions> 
+			<execution> <goals> <goal>compile</goal> <goal>compile-custom</goal> </goals> 
+			</execution> </executions> </plugin> </plugins> -->
 	</build>
 </project>
