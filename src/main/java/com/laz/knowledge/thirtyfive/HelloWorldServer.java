@@ -22,8 +22,18 @@ private int port;
 	}
 	
 	public void start(){
-		EventLoopGroup bossGroup = new NioEventLoopGroup();//创建父子线程组
-		EventLoopGroup workGroup = new NioEventLoopGroup();
+		EventLoopGroup bossGroup = new NioEventLoopGroup(2) {
+			@Override
+			public String toString() {
+				return "bossGroup"+super.toString();
+			}
+		};//创建父子线程组
+		EventLoopGroup workGroup = new NioEventLoopGroup(2) {
+			@Override
+			public String toString() {
+				return "workGroup"+super.toString();
+			}
+		};
 		
 		ServerBootstrap server = new ServerBootstrap();
 		server.group(bossGroup, workGroup)
