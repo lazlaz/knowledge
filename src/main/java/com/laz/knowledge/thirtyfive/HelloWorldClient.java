@@ -59,8 +59,7 @@ public class HelloWorldClient {
 			ChannelFuture future = bootstrap.connect(address,port).sync();
 			Channel channel = future.channel();
 			channel.writeAndFlush("我是客户端,地址:" + channel.remoteAddress());
-			channel.close();
-//			channel.closeFuture().sync();
+			channel.closeFuture().sync();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
