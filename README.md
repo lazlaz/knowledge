@@ -11,4 +11,4 @@
 ### 43 [对于一个类有子静态类，在外部调用子静态类方法，不会出入该类的static](src\main\java\com\laz\knowledge\fortythree\README.md)
 ### 44 [Java Reactor编程模式实现](src\main\java\com\laz\knowledge\fortyfour\README.md）
 ### 45 [Java 对象的四种引用：强引用、软引用、弱引用和虚引用](src\main\java\com\laz\knowledge\fortyfive\README.md)
-### 46 [Java 几种OutOfMemory错误示例](src\main\java\com\laz\knowledge\fortysix\README.md)
+### 46  [Java 几种OutOfMemory错误示例](src\main\java\com\laz\knowledge\fortysix\README.md)
