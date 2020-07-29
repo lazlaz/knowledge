@@ -161,6 +161,13 @@
 			<artifactId>reactor-core</artifactId>
 			<version>3.0.3.RELEASE</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>5.1.39</version>
+</dependency>
+		
 	</dependencies>
 
 	<build>
