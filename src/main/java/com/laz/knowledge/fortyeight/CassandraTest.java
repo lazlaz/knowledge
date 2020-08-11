@@ -1,5 +1,7 @@
 package com.laz.knowledge.fortyeight;
 
+import java.util.Collection;
+
 import org.junit.Test;
 
 import com.datastax.driver.core.Cluster;
@@ -10,6 +12,7 @@ import com.datastax.driver.core.Metadata;
 import com.datastax.driver.core.ResultSet;
 import com.datastax.driver.core.Row;
 import com.datastax.driver.core.Session;
+import com.datastax.driver.core.TableMetadata;
 
 public class CassandraTest {
 	@Test
@@ -24,14 +27,23 @@ public class CassandraTest {
 
 		for (KeyspaceMetadata keyspaceMetadata : metadata.getKeyspaces()) {
 			System.out.println("--------" + keyspaceMetadata.getName());
+			Collection<TableMetadata> c = keyspaceMetadata.getTables();
+			for (TableMetadata t : c) {
+				System.out.println(keyspaceMetadata.getName()+":"+t.getName());
+			}
 		}
 
 	}
 
 	@Test
-	public void testCreateTable() {
+	public void testCreateKeySpace() {
 		connect();
 		createKeyspace();
+	}
+	
+	@Test
+	public void testCreateTable() {
+		connect();
 		createTable();
 	}
 
