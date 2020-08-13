@@ -53,6 +53,18 @@ public class CassandraTest {
 		insert();
 	}
 
+	@Test
+	public void testUpdate() {
+		connect();
+		update();
+	}
+	
+	@Test
+	public void testQuery() {
+		connect();
+		query();
+	}
+	
 	Cluster cluster;
 	Session session;
 
@@ -97,9 +109,9 @@ public class CassandraTest {
 		// a,b是复合主键 所以条件都要带上，少一个都会报错，而且update不能修改主键的值，这应该和cassandra的存储方式有关
 		String cql = "UPDATE mydb.test SET d = 1234 WHERE a='aa' and b=2;";
 		// 也可以这样 cassandra插入的数据如果主键已经存在，其实就是更新操作
-		String cql2 = "INSERT INTO mydb.test (a,b,d) VALUES ( 'aa',2,1234);";
+		String cql2 = "INSERT INTO mydb.test (a,b,d) VALUES ( 'aa',2,12345);";
 		// cql 和 cql2 的执行效果其实是一样的
-		session.execute(cql);
+		session.execute(cql2);
 	}
 
 	/**
@@ -124,7 +136,7 @@ public class CassandraTest {
 		ResultSet resultSet = session.execute(cql);
 		System.out.print("这里是字段名：");
 		for (Definition definition : resultSet.getColumnDefinitions()) {
-			System.out.print(definition.getName() + " ");
+			System.out.print(definition.getName() + " "+definition.getType().getName());
 		}
 		System.out.println();
 		System.out.println(String.format("%s\t%s\t%s\t%s\t\n%s", "a", "b", "c", "d",
