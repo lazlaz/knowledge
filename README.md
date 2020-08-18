@@ -13,3 +13,4 @@
 ### 45 [Java 对象的四种引用：强引用、软引用、弱引用和虚引用](src\main\java\com\laz\knowledge\fortyfive\README.md)
 ### 46  [Java 几种OutOfMemory错误示例](src\main\java\com\laz\knowledge\fortysix\README.md)
 ### 47 [进程同步问题](src\main\java\com\laz\knowledge\fortyseven\README.md)
+### 48 [Bitmap 位图 Java实现](src\main\java\com\laz\knowledge\fortyeight\README.md)
