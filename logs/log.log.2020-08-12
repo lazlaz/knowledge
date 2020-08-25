@@ -1,0 +1,12 @@
+[WARN ] 2020-08-12 14:19:41,256 method:com.datastax.driver.core.NettyUtil.<clinit>(NettyUtil.java:73)
+Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+[INFO ] 2020-08-12 14:19:42,380 method:com.datastax.driver.core.policies.DCAwareRoundRobinPolicy.init(DCAwareRoundRobinPolicy.java:95)
+Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+[INFO ] 2020-08-12 14:19:42,381 method:com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1475)
+New Cassandra host /172.18.194.158:9042 added
+[WARN ] 2020-08-12 14:26:13,823 method:com.datastax.driver.core.NettyUtil.<clinit>(NettyUtil.java:73)
+Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
+[INFO ] 2020-08-12 14:26:14,770 method:com.datastax.driver.core.policies.DCAwareRoundRobinPolicy.init(DCAwareRoundRobinPolicy.java:95)
+Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
+[INFO ] 2020-08-12 14:26:14,770 method:com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1475)
+New Cassandra host /172.18.194.158:9042 added

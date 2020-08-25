@@ -1,12 +1,199 @@
-[WARN ] 2020-08-12 14:19:41,256 method:com.datastax.driver.core.NettyUtil.<clinit>(NettyUtil.java:73)
-Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
-[INFO ] 2020-08-12 14:19:42,380 method:com.datastax.driver.core.policies.DCAwareRoundRobinPolicy.init(DCAwareRoundRobinPolicy.java:95)
-Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
-[INFO ] 2020-08-12 14:19:42,381 method:com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1475)
-New Cassandra host /172.18.194.158:9042 added
-[WARN ] 2020-08-12 14:26:13,823 method:com.datastax.driver.core.NettyUtil.<clinit>(NettyUtil.java:73)
-Found Netty's native epoll transport, but not running on linux-based operating system. Using NIO instead.
-[INFO ] 2020-08-12 14:26:14,770 method:com.datastax.driver.core.policies.DCAwareRoundRobinPolicy.init(DCAwareRoundRobinPolicy.java:95)
-Using data-center name 'datacenter1' for DCAwareRoundRobinPolicy (if this is incorrect, please provide the correct datacenter name with DCAwareRoundRobinPolicy constructor)
-[INFO ] 2020-08-12 14:26:14,770 method:com.datastax.driver.core.Cluster$Manager.init(Cluster.java:1475)
-New Cassandra host /172.18.194.158:9042 added
+[INFO ] 2020-08-17 16:54:10,912 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.44:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 16:54:10,914 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.44:27017 to client view of cluster
+[INFO ] 2020-08-17 16:55:44,936 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.44:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 16:55:44,938 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.44:27017 to client view of cluster
+[INFO ] 2020-08-17 16:55:45,002 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by PrimaryServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.44:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 16:56:05,035 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:76)
+Exception in monitor thread while connecting to server 172.18.130.44:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+[INFO ] 2020-08-17 17:03:07,115 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.37:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:03:07,117 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.37:27017 to client view of cluster
+[INFO ] 2020-08-17 17:03:07,178 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by PrimaryServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.37:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:03:07,204 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:1, serverValue:2}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:03:07,206 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Monitor thread successfully connected to server with description ServerDescription{address=172.18.130.37:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=684245}
+[INFO ] 2020-08-17 17:03:07,207 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Discovered cluster type of STANDALONE
+[INFO ] 2020-08-17 17:03:07,213 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:2, serverValue:3}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:03:59,039 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.37:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:03:59,043 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.37:27017 to client view of cluster
+[INFO ] 2020-08-17 17:03:59,109 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.37:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:03:59,115 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:1, serverValue:4}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:03:59,116 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Monitor thread successfully connected to server with description ServerDescription{address=172.18.130.37:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=562791}
+[INFO ] 2020-08-17 17:03:59,117 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Discovered cluster type of STANDALONE
+[INFO ] 2020-08-17 17:03:59,122 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:2, serverValue:5}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:04:06,000 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.37:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:04:06,003 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.37:27017 to client view of cluster
+[INFO ] 2020-08-17 17:04:06,075 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.37:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:04:06,083 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:1, serverValue:6}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:04:06,084 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Monitor thread successfully connected to server with description ServerDescription{address=172.18.130.37:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=560510}
+[INFO ] 2020-08-17 17:04:06,085 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Discovered cluster type of STANDALONE
+[INFO ] 2020-08-17 17:04:06,090 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:2, serverValue:7}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:04:17,741 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.37:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:04:17,743 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.37:27017 to client view of cluster
+[INFO ] 2020-08-17 17:04:17,809 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by PrimaryServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.37:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:04:17,818 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:1, serverValue:8}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:04:17,819 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Monitor thread successfully connected to server with description ServerDescription{address=172.18.130.37:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=544830}
+[INFO ] 2020-08-17 17:04:17,820 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Discovered cluster type of STANDALONE
+[INFO ] 2020-08-17 17:04:17,825 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:2, serverValue:9}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:04:55,379 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.44:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:04:55,381 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.44:27017 to client view of cluster
+[INFO ] 2020-08-17 17:05:03,390 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.44:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:05:03,392 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.44:27017 to client view of cluster
+[INFO ] 2020-08-17 17:05:03,456 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by PrimaryServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.44:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:05:23,446 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:76)
+Exception in monitor thread while connecting to server 172.18.130.44:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+[INFO ] 2020-08-17 17:16:47,117 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.44:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:16:47,119 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.44:27017 to client view of cluster
+[INFO ] 2020-08-17 17:16:52,152 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.44:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:16:52,154 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.44:27017 to client view of cluster
+[INFO ] 2020-08-17 17:16:52,217 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by PrimaryServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.44:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:17:12,207 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:76)
+Exception in monitor thread while connecting to server 172.18.130.44:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:63)
+	at com.mongodb.connection.InternalStreamConnection.open(InternalStreamConnection.java:114)
+	at com.mongodb.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:127)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:50)
+	at com.mongodb.connection.SocketStream.open(SocketStream.java:58)
+	... 3 more
+[INFO ] 2020-08-17 17:32:26,494 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.37:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:32:26,496 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.37:27017 to client view of cluster
+[INFO ] 2020-08-17 17:32:26,561 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by PrimaryServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.37:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:32:26,570 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:1, serverValue:5}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:32:26,572 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Monitor thread successfully connected to server with description ServerDescription{address=172.18.130.37:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=882677}
+[INFO ] 2020-08-17 17:32:26,574 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Discovered cluster type of STANDALONE
+[INFO ] 2020-08-17 17:32:26,580 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:2, serverValue:6}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:32:33,026 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.37:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:32:33,028 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.37:27017 to client view of cluster
+[INFO ] 2020-08-17 17:32:33,094 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.37:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:32:33,101 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:1, serverValue:7}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:32:33,102 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Monitor thread successfully connected to server with description ServerDescription{address=172.18.130.37:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 9]}, minWireVersion=0, maxWireVersion=7, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=573626}
+[INFO ] 2020-08-17 17:32:33,103 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Discovered cluster type of STANDALONE
+[INFO ] 2020-08-17 17:32:33,108 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:2, serverValue:8}] to 172.18.130.37:27017
+[INFO ] 2020-08-17 17:37:20,859 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.44:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:37:20,861 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.44:27017 to client view of cluster
+[INFO ] 2020-08-17 17:37:20,923 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by PrimaryServerSelector from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.44:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:37:20,933 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:1, serverValue:11}] to 172.18.130.44:27017
+[INFO ] 2020-08-17 17:37:20,934 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Monitor thread successfully connected to server with description ServerDescription{address=172.18.130.44:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 24]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=568209}
+[INFO ] 2020-08-17 17:37:20,934 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Discovered cluster type of STANDALONE
+[INFO ] 2020-08-17 17:37:20,939 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:2, serverValue:12}] to 172.18.130.44:27017
+[INFO ] 2020-08-17 17:37:25,022 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Cluster created with settings {hosts=[172.18.130.44:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+[INFO ] 2020-08-17 17:37:25,024 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Adding discovered server 172.18.130.44:27017 to client view of cluster
+[INFO ] 2020-08-17 17:37:25,092 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=UNKNOWN, connectionMode=MULTIPLE, all=[ServerDescription{address=172.18.130.44:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+[INFO ] 2020-08-17 17:37:25,099 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:1, serverValue:13}] to 172.18.130.44:27017
+[INFO ] 2020-08-17 17:37:25,100 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Monitor thread successfully connected to server with description ServerDescription{address=172.18.130.44:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 24]}, minWireVersion=0, maxWireVersion=5, electionId=null, maxDocumentSize=16777216, roundTripTimeNanos=685671}
+[INFO ] 2020-08-17 17:37:25,101 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Discovered cluster type of STANDALONE
+[INFO ] 2020-08-17 17:37:25,106 method:com.mongodb.diagnostics.logging.SLF4JLogger.info(SLF4JLogger.java:71)
+Opened connection [connectionId{localValue:2, serverValue:14}] to 172.18.130.44:27017
