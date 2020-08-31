@@ -19,3 +19,4 @@
 ### 50 [AQS基础-CLH锁](src\main\java\com\laz\knowledge\fortyeight\README.md)
 ### 51 [Java8实现JS函数调用](src\main\java\com\laz\knowledge\fiftyone\README.md)
 ### 52 [Java 二进制和位运算](src\main\java\com\laz\knowledge\fiftytwo\README.md)
+### 53 [Java 类热加载示例](src\main\java\com\laz\knowledge\fiftythree\README.md)
