@@ -7,6 +7,7 @@
 ### 4 ...
 ### 14 [Java Robot实现界面自动操作](src\main\java\com\laz\knowledge\fourteen\README.md)
 ### 27 [JDBC连接数据库示例](src\main\java\com\laz\knowledge\twentyseven\README.md)
+### 38 [Java实现各种加密算法示例](src\main\java\com\laz\knowledge\thirtyeight\README.md)
 ### 41 [Java如何实现协程](src\main\java\com\laz\knowledge\fortyone\README.md)
 ### 42 [Java 8 新特性](src\main\java\com\laz\knowledge\fortytwo\README.md)
 ### 43 [对于一个类有子静态类，在外部调用子静态类方法，不会出入该类的static](src\main\java\com\laz\knowledge\fortythree\README.md)
