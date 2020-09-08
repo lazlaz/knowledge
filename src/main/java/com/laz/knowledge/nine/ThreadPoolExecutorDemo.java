@@ -11,8 +11,8 @@ public class ThreadPoolExecutorDemo {
 	    private static final Long KEEP_ALIVE_TIME = 1L;
 	    public static void main(String[] args) {
 
-	        //Ê¹ÓÃ°¢Àï°Í°ÍÍÆ¼öµÄ´´½¨Ïß³Ì³ØµÄ·½Ê½
-	        //Í¨¹ıThreadPoolExecutor¹¹Ôìº¯Êı×Ô¶¨Òå²ÎÊı´´½¨
+	        //ä½¿ç”¨é˜¿é‡Œå·´å·´æ¨èçš„åˆ›å»ºçº¿ç¨‹æ± çš„æ–¹å¼
+	        //é€šè¿‡ThreadPoolExecutoræ„é€ å‡½æ•°è‡ªå®šä¹‰å‚æ•°åˆ›å»º
 	        ThreadPoolExecutor executor = new ThreadPoolExecutor(
 	                CORE_POOL_SIZE,
 	                MAX_POOL_SIZE,
@@ -22,12 +22,12 @@ public class ThreadPoolExecutorDemo {
 	                new ThreadPoolExecutor.CallerRunsPolicy());
 
 	        for (int i = 0; i < 10; i++) {
-	            //´´½¨WorkerThread¶ÔÏó£¨WorkerThreadÀàÊµÏÖÁËRunnable ½Ó¿Ú£©
+	            //åˆ›å»ºWorkerThreadå¯¹è±¡ï¼ˆWorkerThreadç±»å®ç°äº†Runnable æ¥å£ï¼‰
 	            Runnable worker = new MyRunnable("" + i);
-	            //Ö´ĞĞRunnable
+	            //æ‰§è¡ŒRunnable
 	            executor.execute(worker);
 	        }
-	        //ÖÕÖ¹Ïß³Ì³Ø
+	        //ç»ˆæ­¢çº¿ç¨‹æ± 
 	        executor.shutdown();
 	        while (!executor.isTerminated()) {
 	        }

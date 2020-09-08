@@ -18,8 +18,8 @@ public class CallableDemo {
 
 	    public static void main(String[] args) {
 
-	        //Ê¹ÓÃ°¢Àï°Í°ÍÍÆ¼öµÄ´´½¨Ïß³Ì³ØµÄ·½Ê½
-	        //Í¨¹ýThreadPoolExecutor¹¹Ôìº¯Êý×Ô¶¨Òå²ÎÊý´´½¨
+	        //Ê¹ï¿½Ã°ï¿½ï¿½ï¿½Í°ï¿½ï¿½Æ¼ï¿½ï¿½Ä´ï¿½ï¿½ï¿½ï¿½ß³Ì³ØµÄ·ï¿½Ê½
+	        //Í¨ï¿½ï¿½ThreadPoolExecutorï¿½ï¿½ï¿½ìº¯ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	        ThreadPoolExecutor executor = new ThreadPoolExecutor(
 	                CORE_POOL_SIZE,
 	                MAX_POOL_SIZE,
@@ -31,9 +31,9 @@ public class CallableDemo {
 	        List<Future<String>> futureList = new ArrayList<>();
 	        Callable<String> callable = new MyCallable();
 	        for (int i = 0; i < 10; i++) {
-	            //Ìá½»ÈÎÎñµ½Ïß³Ì³Ø
+	            //ï¿½á½»ï¿½ï¿½ï¿½ï¿½ï¿½ß³Ì³ï¿½
 	            Future<String> future = executor.submit(callable);
-	            //½«·µ»ØÖµ future Ìí¼Óµ½ list£¬ÎÒÃÇ¿ÉÒÔÍ¨¹ý future »ñµÃ Ö´ÐÐ Callable µÃµ½µÄ·µ»ØÖµ
+	            //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ future ï¿½ï¿½Óµï¿½ listï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ future ï¿½ï¿½ï¿½ Ö´ï¿½ï¿½ Callable ï¿½Ãµï¿½ï¿½Ä·ï¿½ï¿½ï¿½Öµ
 	            futureList.add(future);
 	        }
 	        for (Future<String> fut : futureList) {
@@ -43,7 +43,7 @@ public class CallableDemo {
 	                e.printStackTrace();
 	            }
 	        }
-	        //¹Ø±ÕÏß³Ì³Ø
+	        //ï¿½Ø±ï¿½ï¿½ß³Ì³ï¿½
 	        executor.shutdown();
 	    }
 }

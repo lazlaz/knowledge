@@ -6,7 +6,7 @@ public class MyCallable implements Callable<String> {
     @Override
     public String call() throws Exception {
         Thread.sleep(1000);
-        //·µ»ØÖ´ĞĞµ±Ç° Callable µÄÏß³ÌÃû×Ö
+        //è¿”å›æ‰§è¡Œå½“å‰ Callable çš„çº¿ç¨‹åå­—
         return Thread.currentThread().getName();
     }
 }

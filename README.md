@@ -1,10 +1,15 @@
 # Java学习零散知识点汇中（方便平时忘了有简单的Demo回顾）
 
-### 1 wait 线程等待 notify 线程唤醒（随机） 基本使用示例
-
-### 2 ...
-###	3 ...
-### 4 ...
+### 1 [wait 线程等待 notify 线程唤醒（随机） 基本使用示例](src\main\java\com\laz\knowledge\one\README.md)
+### 2 [Java动态代理](src\main\java\com\laz\knowledge\two\README.md)
+###	3 [Java动态代理（基于CGLIB)](src\main\java\com\laz\knowledge\three\README.md)
+### 4 [String比StringBuffer慢验证 ](src\main\java\com\laz\knowledge\four\README.md)
+### 5 [类的实例化顺序](src\main\java\com\laz\knowledge\five\README.md)
+### 6 [BIO NIO AIO区别](src\main\java\com\laz\knowledge\six\README.md)
+### 7 [java内存溢出](src\main\java\com\laz\knowledge\seven\README.md)
+### 8 [线程池中如何寻找堆栈？如何打印出堆栈的异常信息？](src\main\java\com\laz\knowledge\eight\README.md)
+### 9 [Java线程池用法](src\main\java\com\laz\knowledge\nine\README.md)
+### 10 [CAS算法+自旋锁](src\main\java\com\laz\knowledge\ten\README.md)
 ### 14 [Java Robot实现界面自动操作](src\main\java\com\laz\knowledge\fourteen\README.md)
 ### 27 [JDBC连接数据库示例](src\main\java\com\laz\knowledge\twentyseven\README.md)
 ### 38 [Java实现各种加密算法示例](src\main\java\com\laz\knowledge\thirtyeight\README.md)
