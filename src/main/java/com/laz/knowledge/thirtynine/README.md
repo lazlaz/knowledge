@@ -1,4 +1,4 @@
-#Netty bytebuf使用示例
+# Netty bytebuf使用示例
 
 ByteBuf本质是: 一个由不同的索引分别控制读访问和写访问的字节数组。请记住这句话。ByteBuf共有三种模式:   
 堆缓冲区模式(Heap Buffer)、直接缓冲区模式(Direct Buffer)和复合缓冲区模式(Composite Buffer)

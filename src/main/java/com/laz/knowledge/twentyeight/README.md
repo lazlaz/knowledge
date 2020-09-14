@@ -1,4 +1,4 @@
-#semaphore 
+# semaphore 
 
 Semaphore是一个计数信号量，常用于限制可以访问某些资源（物理或逻辑的）线程数目
 

@@ -1,4 +1,4 @@
-#Java代码解决生产者---消费者问题（两种方法）
+# Java代码解决生产者---消费者问题（两种方法）
 
 1.方法一：synchronized, wait, notify 
 

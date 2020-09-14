@@ -1,4 +1,4 @@
-#Java 线程Deamon
+# Java 线程Deamon
 
 ###在Java中有两类线程：用户线程 (User Thread)、守护线程 (Daemon Thread)。 
 

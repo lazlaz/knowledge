@@ -1,4 +1,4 @@
-#ThreadLocal 使用示例
+# ThreadLocal 使用示例
 
 什么是ThreadLocal变量
 
