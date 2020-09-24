@@ -11,6 +11,8 @@ import java.util.Date;
 
 import org.junit.Test;
 
+import com.sybase.jdbc3.jdbc.SybDriver;
+
 
 public class JDBCConnectionDemo {
 	
@@ -138,5 +140,23 @@ public class JDBCConnectionDemo {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+	}
+	
+	@Test
+	public void testSybase() {
+		   Connection conn;
+		   try 
+		   {
+		      Class.forName("com.sybase.jdbc3.jdbc.SybDriver");
+		      System.out.println("Driver Loaded");
+		      String url = "jdbc:sybase:Tds:192.168.5.45:2638";
+		      conn = DriverManager.getConnection(url,"dba","123456");
+		      Statement stmt = conn.createStatement();
+		      ResultSet rs = stmt.executeQuery("select * from zxdbl_888..account_0");
+		      rs.next();
+		      System.out.println(rs.getString(2));
+		   } catch(Exception e) {
+			   e.printStackTrace();
+		   }
 	}
 }
