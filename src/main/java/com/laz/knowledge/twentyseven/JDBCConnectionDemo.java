@@ -71,7 +71,7 @@ public class JDBCConnectionDemo {
 
             //2.建立连接
             //方法一  参数一：协议+访问数据库，参数二：用户名，参数三：密码
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/xxl_job?useSSL=false", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/xxl_job?useSSL=false&serverTimezone=UTC", "root", "root");
             String str = "'' or 1 = 1";
             String sql = "select * from xxl_job_log where id="+str;
             
@@ -98,7 +98,7 @@ public class JDBCConnectionDemo {
 
             //2.建立连接
             //方法一  参数一：协议+访问数据库，参数二：用户名，参数三：密码
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/xxl_job?useSSL=false", "root", "root");
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/xxl_job?useSSL=false&serverTimezone=UTC", "root", "root");
             String str = "'' or 1 = 1";
             String sql = "select * from xxl_job_log where id=?";
             
