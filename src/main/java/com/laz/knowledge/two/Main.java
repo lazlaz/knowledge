@@ -1,7 +1,9 @@
 package com.laz.knowledge.two;
 
+import java.io.IOException;
+
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 //		ProductOwner po = new ProductOwner("Ross");
 //
 //		ProductOwner poProxy = (ProductOwner) new EnginnerProxy().bind(po);
@@ -11,6 +13,7 @@ public class Main {
 		Tester t = new Tester("boss");
 		ITester r = (ITester) new EnginnerProxy().bind(t);
 		r.doTesting();
-		
+
 	}
+	
 }
