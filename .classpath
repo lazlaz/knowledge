@@ -35,6 +35,7 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/cloudjdbc-10.2.0.4.jar"/>
 	<classpathentry kind="lib" path="lib/jconn3-1.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/tools.jar"/>
 	<classpathentry kind="src" output="target/classes" path="target/generated-sources/protobuf/grpc-java">
 		<attributes>
 			<attribute name="optional" value="true"/>
