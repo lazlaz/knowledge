@@ -11,5 +11,7 @@ public class Test {
 		//%d输出整型，%f输出浮点型，%n是转行的意思
 		System.out.printf("%d%n",a);
 		System.out.printf("%f",c);
+		
+
 	}
 }
