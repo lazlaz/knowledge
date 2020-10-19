@@ -32,12 +32,11 @@ public class RateLimiterTest {
 	@Test
 	public void testRateLimiter2() {
 	    RateLimiter rateLimiter = RateLimiter.create(1);
-	        
 	    System.out.println("获取1个令牌开始，时间为" + FORMATTER.format(new Date()));
 	    double cost = rateLimiter.acquire(1);
 	    System.out.println("获取1个令牌结束，时间为" + FORMATTER.format(new Date()) + ", 耗时" + cost + "ms");
 	    System.out.println("获取5个令牌开始，时间为" + FORMATTER.format(new Date()));
-	    cost = rateLimiter.acquire(5);
+	    cost = rateLimiter.acquire(500);
 	    System.out.println("获取5个令牌结束，时间为" + FORMATTER.format(new Date()) + ", 耗时" + cost + "ms");
 	    System.out.println("获取3个令牌开始，时间为" + FORMATTER.format(new Date()));
 	    cost = rateLimiter.acquire(3);
