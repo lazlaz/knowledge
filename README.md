@@ -58,3 +58,4 @@
 ### 56 [设计模式代码示例](src/main/java/com/laz/knowledge/fiftysix/README.md)
 ### 57 [对象锁和类锁](src/main/java/com/laz/knowledge/fiftyseven/README.md)
 ### 58 [令牌桶算法](src/main/java/com/laz/knowledge/fiftyeight/README.md) 
+### 59 [高性能队列——Disruptor](src/main/java/com/laz/knowledge/fiftynine/README.md) 
