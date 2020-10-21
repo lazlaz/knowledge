@@ -18,8 +18,6 @@ public class CallableDemo {
 
 	    public static void main(String[] args) {
 
-	        //ʹ�ð���Ͱ��Ƽ��Ĵ����̳߳صķ�ʽ
-	        //ͨ��ThreadPoolExecutor���캯���Զ����������
 	        ThreadPoolExecutor executor = new ThreadPoolExecutor(
 	                CORE_POOL_SIZE,
 	                MAX_POOL_SIZE,
@@ -31,9 +29,7 @@ public class CallableDemo {
 	        List<Future<String>> futureList = new ArrayList<>();
 	        Callable<String> callable = new MyCallable();
 	        for (int i = 0; i < 10; i++) {
-	            //�ύ�����̳߳�
 	            Future<String> future = executor.submit(callable);
-	            //������ֵ future ��ӵ� list�����ǿ���ͨ�� future ��� ִ�� Callable �õ��ķ���ֵ
 	            futureList.add(future);
 	        }
 	        for (Future<String> fut : futureList) {
@@ -43,7 +39,6 @@ public class CallableDemo {
 	                e.printStackTrace();
 	            }
 	        }
-	        //�ر��̳߳�
 	        executor.shutdown();
 	    }
 }
