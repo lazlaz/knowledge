@@ -13,15 +13,16 @@ public class EnginnerCGLibProxy {
 		this.obj = target;
 		Enhancer enhancer = new Enhancer();
 		enhancer.setSuperclass(obj.getClass());
-		enhancer.setCallback(new MethodInterceptor() {
-			@Override
-			public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
-				System.out.println("Enginner 2 writes document");
-			//	Object res = method.invoke(target, args);
-				Object res =proxy.invokeSuper(obj, args);
-				return res;
-			}
-		});
+		enhancer.setCallback(new MyMethodInterceptor());
 		return enhancer.create();
+	}
+	class MyMethodInterceptor implements MethodInterceptor{
+		@Override
+		public Object intercept(Object obj, Method method, Object[] args, MethodProxy proxy) throws Throwable {
+			System.out.println("Enginner 2 writes document");
+			//Object res = method.invoke(target, args);
+			Object res =proxy.invokeSuper(obj, args);
+			return res;
+		}
 	}
 }

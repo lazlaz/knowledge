@@ -2,6 +2,9 @@ package com.laz.knowledge.two;
 
 public class Tester implements ITester {
 	private String name;
+	public Tester() {
+		
+	}
 	public Tester(String name){
 		this.name = name;
 	}
