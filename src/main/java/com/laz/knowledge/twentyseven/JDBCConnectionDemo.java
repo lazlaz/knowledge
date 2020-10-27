@@ -9,15 +9,18 @@ import java.sql.Statement;
 import java.sql.Timestamp;
 import java.util.Date;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.spi.LoggerFactory;
 import org.junit.Test;
 
 import com.sybase.jdbc3.jdbc.SybDriver;
 
 
 public class JDBCConnectionDemo {
-	
+	Logger log = Logger.getLogger(JDBCConnectionDemo.class);
 	@Test
 	public void testMysql() {
+		log.error("xxx--------------");
 		Connection connection = null;
         ResultSet rs = null;
         try {
@@ -136,7 +139,6 @@ public class JDBCConnectionDemo {
              //进行资源释放
             connection.close();
             ps.close();
-
         } catch (SQLException e) {
             e.printStackTrace();
         }
