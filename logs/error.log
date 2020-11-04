@@ -1,4 +1,6 @@
-[ERROR] 2020-10-26 14:44:59,831 method:com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1488)
-discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true, jdbcUrl : jdbc:mysql://localhost:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true, lastPacketReceivedIdleMillis : 90111
-[ERROR] 2020-10-26 14:45:00,568 method:com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1488)
-discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test2?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true, jdbcUrl : jdbc:mysql://localhost:3306/test2?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true, lastPacketReceivedIdleMillis : 92204
+[ERROR] 2020-10-27 14:37:57,537 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
+xxx
+[ERROR] 2020-10-27 14:38:06,167 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
+xxx
+[ERROR] 2020-10-27 14:38:36,442 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
+xxx--------------

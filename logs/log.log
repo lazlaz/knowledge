@@ -122,3 +122,21 @@ closeChannel: close the connection to remote address[127.0.0.1:9876] result: tru
 closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
 [INFO ] 2020-10-27 10:35:34,524 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
 closeChannel: close the connection to remote address[192.168.5.9:10911] result: true
+[ERROR] 2020-10-27 14:37:57,537 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
+xxx
+[ERROR] 2020-10-27 14:38:06,167 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
+xxx
+[ERROR] 2020-10-27 14:38:36,442 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
+xxx--------------
+[INFO ] 2020-10-28 14:35:02,435 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-28 14:35:02,485 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-28 14:35:02,485 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[192.168.5.9:10911] result: true
+[INFO ] 2020-10-28 14:35:09,150 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[] result: true
+[INFO ] 2020-10-28 14:36:33,227 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-28 14:36:33,230 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[192.168.5.9:10911] result: true
