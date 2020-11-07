@@ -140,3 +140,28 @@ closeChannel: close the connection to remote address[] result: true
 closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
 [INFO ] 2020-10-28 14:36:33,230 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
 closeChannel: close the connection to remote address[192.168.5.9:10911] result: true
+[INFO ] 2020-11-05 21:27:30,190 method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+[INFO ] 2020-11-05 21:27:30,204 method:org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+[INFO ] 2020-11-05 21:27:30,264 method:org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2020-11-05 21:27:30,266 method:org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+[INFO ] 2020-11-05 21:27:30,268 method:org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+[INFO ] 2020-11-05 21:27:30,270 method:org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2020-11-05 21:27:30,270 method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[INFO ] 2020-11-05 21:27:30,270 method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+[INFO ] 2020-11-05 21:27:30,279 method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.

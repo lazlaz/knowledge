@@ -226,12 +226,16 @@
 			<version>1.2.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
-<dependency>
-    <groupId>org.apache.rocketmq</groupId>
-    <artifactId>rocketmq-client</artifactId>
-    <version>4.7.1</version>
-</dependency>
-
+		<dependency>
+			<groupId>org.apache.rocketmq</groupId>
+			<artifactId>rocketmq-client</artifactId>
+			<version>4.7.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.thrift</groupId>
+			<artifactId>libthrift</artifactId>
+			<version>0.13.0</version>
+		</dependency>
 	</dependencies>
 
 
