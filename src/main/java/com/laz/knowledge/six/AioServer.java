@@ -18,8 +18,8 @@ import com.sun.corba.se.spi.activation.Server;
 public class AioServer {
 //	  static int PORT = 8000;  
 //	    static int BUFFER_SIZE = 1024;  
-//	    static String CHARSET = "utf-8"; //Ä¬ÈÏ±àÂë  
-//	    static CharsetDecoder decoder = Charset.forName(CHARSET).newDecoder(); //½âÂë  
+//	    static String CHARSET = "utf-8"; //é»˜è®¤ç¼–ç   
+//	    static CharsetDecoder decoder = Charset.forName(CHARSET).newDecoder(); //è§£ç   
 //	  
 //	    int port;  
 //	    //ByteBuffer buffer;  
@@ -33,8 +33,8 @@ public class AioServer {
 //	  
 //	    private void listen() throws Exception {  
 //	  
-//	        //´ò¿ªÒ»¸ö·şÎñÍ¨µÀ  
-//	        //°ó¶¨·şÎñ¶Ë¿Ú  
+//	        //æ‰“å¼€ä¸€ä¸ªæœåŠ¡é€šé“  
+//	        //ç»‘å®šæœåŠ¡ç«¯å£  
 //	        this.serverChannel = AsynchronousServerSocketChannel.open().bind(new InetSocketAddress(port), 100);  
 //	        this.serverChannel.accept(this, new AcceptHandler());  
 //	  
@@ -42,7 +42,7 @@ public class AioServer {
 //	            @Override  
 //	            public void run() {  
 //	                while (true) {  
-//	                  //  System.out.println("ÔËĞĞÖĞ...");  
+//	                  //  System.out.println("è¿è¡Œä¸­...");  
 //	                    try {  
 //	                        Thread.sleep(10000);  
 //	                    } catch (InterruptedException e) {  
@@ -57,20 +57,20 @@ public class AioServer {
 //	  
 //	  
 //	    /** 
-//	     * acceptµ½Ò»¸öÇëÇóÊ±µÄ»Øµ÷ 
+//	     * acceptåˆ°ä¸€ä¸ªè¯·æ±‚æ—¶çš„å›è°ƒ 
 //	     */  
 //	    private class AcceptHandler implements CompletionHandler<AsynchronousSocketChannel, AioServer> {  
 //	        @Override  
 //	        public void completed(final AsynchronousSocketChannel client, AioServer attachment) {  
 //	            try {  
-//	                System.out.println("Ô¶³ÌµØÖ·£º" + client.getRemoteAddress());  
-//	                //tcp¸÷Ïî²ÎÊı  
+//	                System.out.println("è¿œç¨‹åœ°å€ï¼š" + client.getRemoteAddress());  
+//	                //tcpå„é¡¹å‚æ•°  
 //	                client.setOption(StandardSocketOptions.TCP_NODELAY, true);  
 //	                client.setOption(StandardSocketOptions.SO_SNDBUF, 1024);  
 //	                client.setOption(StandardSocketOptions.SO_RCVBUF, 1024);  
 //	  
 //	                if (client.isOpen()) {  
-//	                    System.out.println("client.isOpen£º" + client.getRemoteAddress());  
+//	                    System.out.println("client.isOpenï¼š" + client.getRemoteAddress());  
 //	                    final ByteBuffer buffer = ByteBuffer.allocate(BUFFER_SIZE);  
 //	                    buffer.clear();  
 //	                    client.read(buffer, client, new ReadHandler(buffer));  
@@ -79,7 +79,7 @@ public class AioServer {
 //	            } catch (Exception e) {  
 //	                e.printStackTrace();  
 //	            } finally {  
-//	                attachment.serverChannel.accept(attachment, this);// ¼àÌıĞÂµÄÇëÇó£¬µİ¹éµ÷ÓÃ¡£  
+//	                attachment.serverChannel.accept(attachment, this);// ç›‘å¬æ–°çš„è¯·æ±‚ï¼Œé€’å½’è°ƒç”¨ã€‚  
 //	            }  
 //	        }  
 //	  
@@ -88,13 +88,13 @@ public class AioServer {
 //	            try {  
 //	                exc.printStackTrace();  
 //	            } finally {  
-//	                attachment.serverChannel.accept(attachment, this);// ¼àÌıĞÂµÄÇëÇó£¬µİ¹éµ÷ÓÃ¡£  
+//	                attachment.serverChannel.accept(attachment, this);// ç›‘å¬æ–°çš„è¯·æ±‚ï¼Œé€’å½’è°ƒç”¨ã€‚  
 //	            }  
 //	        }  
 //	    }  
 //	  
 //	    /** 
-//	     * Readµ½ÇëÇóÊı¾İµÄ»Øµ÷ 
+//	     * Readåˆ°è¯·æ±‚æ•°æ®çš„å›è°ƒ 
 //	     */  
 //	    private class ReadHandler implements CompletionHandler<Integer, AsynchronousSocketChannel> {  
 //	  
@@ -107,21 +107,21 @@ public class AioServer {
 //	        @Override  
 //	        public void completed(Integer result, AsynchronousSocketChannel attachment) {  
 //	            try {  
-//	                if (result < 0) {// ¿Í»§¶Ë¹Ø±ÕÁËÁ¬½Ó  
+//	                if (result < 0) {// å®¢æˆ·ç«¯å…³é—­äº†è¿æ¥  
 //	                	AioServer.close(attachment);  
 //	                } else if (result == 0) {  
-//	                    System.out.println("¿ÕÊı¾İ"); // ´¦Àí¿ÕÊı¾İ  
+//	                    System.out.println("ç©ºæ•°æ®"); // å¤„ç†ç©ºæ•°æ®  
 //	                } else {  
-//	                    // ¶ÁÈ¡ÇëÇó£¬´¦Àí¿Í»§¶Ë·¢ËÍµÄÊı¾İ  
+//	                    // è¯»å–è¯·æ±‚ï¼Œå¤„ç†å®¢æˆ·ç«¯å‘é€çš„æ•°æ®  
 //	                    buffer.flip();  
 //	                    CharBuffer charBuffer = AioServer.decoder.decode(buffer);  
-//	                    System.out.println(charBuffer.toString()); //½ÓÊÕÇëÇó  
+//	                    System.out.println(charBuffer.toString()); //æ¥æ”¶è¯·æ±‚  
 //	  
-//	                    //ÏìÓ¦²Ù×÷£¬·şÎñÆ÷ÏìÓ¦½á¹û  
+//	                    //å“åº”æ“ä½œï¼ŒæœåŠ¡å™¨å“åº”ç»“æœ  
 //	                    buffer.clear();  
 //	                    String res = "HTTP/1.1 200 OK" + "\r\n\r\n" + "hellworld";  
 //	                    buffer = ByteBuffer.wrap(res.getBytes());  
-//	                    attachment.write(buffer, attachment, new WriteHandler(buffer));//Response£ºÏìÓ¦¡£  
+//	                    attachment.write(buffer, attachment, new WriteHandler(buffer));//Responseï¼šå“åº”ã€‚  
 //	                }  
 //	            } catch (Exception e) {  
 //	                e.printStackTrace();  
@@ -136,7 +136,7 @@ public class AioServer {
 //	    }  
 //	  
 //	    /** 
-//	     * WriteÏìÓ¦ÍêÇëÇóµÄ»Øµ÷ 
+//	     * Writeå“åº”å®Œè¯·æ±‚çš„å›è°ƒ 
 //	     */  
 //	    private class WriteHandler implements CompletionHandler<Integer, AsynchronousSocketChannel> {  
 //	        private ByteBuffer buffer;  
@@ -160,7 +160,7 @@ public class AioServer {
 //	  
 //	    public static void main(String[] args) {  
 //	        try {  
-//	            System.out.println("ÕıÔÚÆô¶¯·şÎñ...");  
+//	            System.out.println("æ­£åœ¨å¯åŠ¨æœåŠ¡...");  
 //	            AioServer server = new AioServer(PORT);  
 //	            server.listen();  
 //	        } catch (Exception e) {  
@@ -181,10 +181,10 @@ public class AioServer {
 	            serverChannel.bind(new InetSocketAddress(8000));
 	            while (true) {
 	                Future<AsynchronousSocketChannel> future = serverChannel.accept();
-	                System.out.println("Á¬½Ó");
-	                //»ñÈ¡Á¬½Ó³É¹¦Ö®ºóµÄAsynchronousSocketChannel
+	                System.out.println("è¿æ¥");
+	                //è·å–è¿æ¥æˆåŠŸä¹‹åçš„AsynchronousSocketChannel
 	                AsynchronousSocketChannel socketChannel = future.get();
-	                socketChannel.write(ByteBuffer.wrap("ÄãºÃ£¬ÕâÊÇAIOÊÀ½ç".getBytes("utf-8"))).get();
+	                socketChannel.write(ByteBuffer.wrap("ä½ å¥½ï¼Œè¿™æ˜¯AIOä¸–ç•Œ".getBytes("utf-8"))).get();
 	            }
 	        } catch(IOException e) {
 	            e.printStackTrace();

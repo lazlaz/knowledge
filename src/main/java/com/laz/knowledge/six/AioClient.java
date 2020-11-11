@@ -19,26 +19,26 @@ public class AioClient {
 //	    }
 //
 //	    public void send(String message) throws IOException {
-//	        System.out.println("ÕıÔÚ·¢ËÍ...");
+//	        System.out.println("æ­£åœ¨å‘é€...");
 //	        AsynchronousSocketChannel client = AsynchronousSocketChannel.open();
 //	        client.connect(new InetSocketAddress(port), null, new CompletionHandler<Void, Void>() {
 //
 //	            @Override
 //	            public void completed(Void result, Void attachment) {
-//	            	System.out.println("Á¬½Ó³É¹¦");
+//	            	System.out.println("è¿æ¥æˆåŠŸ");
 //	                send.clear();
 //	                send.put(message.getBytes());
 //	                send.flip();
 //	                recive.clear();
-//	                // Ğ´
+//	                // å†™
 //	                client.write(send, null, new CompletionHandler<Integer, Void>() {
 //	                    @Override
 //	                    public void completed(Integer result, Void attachment) {
 //
-//	                        // ¶ÁÈ¡½á¹û
+//	                        // è¯»å–ç»“æœ
 //	                        try {
 //	                            Integer integer = client.read(recive).get();
-//	                            System.out.println("size:"+integer+"> ÊÕµ½½á¹û£º"+new String(recive.array()));
+//	                            System.out.println("size:"+integer+"> æ”¶åˆ°ç»“æœï¼š"+new String(recive.array()));
 //	                            isDone = true;
 //	                        } catch (InterruptedException | ExecutionException e) {
 //	                            e.printStackTrace();
@@ -62,7 +62,7 @@ public class AioClient {
 //
 //	        while (isDone == false) {
 //	            try {
-//	                Thread.sleep(1);// ÕâÀïÆğµ½waitµÄ×÷ÓÃ,²»×öµãÊÂÇé´Ë´¦»á±»ÓÅ»¯Îªwait »áÒ»Ö±¹ÒÆğ
+//	                Thread.sleep(1);// è¿™é‡Œèµ·åˆ°waitçš„ä½œç”¨,ä¸åšç‚¹äº‹æƒ…æ­¤å¤„ä¼šè¢«ä¼˜åŒ–ä¸ºwait ä¼šä¸€ç›´æŒ‚èµ·
 //	            } catch (InterruptedException e) {
 //	                e.printStackTrace();
 //	            }
@@ -71,7 +71,7 @@ public class AioClient {
 //
 //	    public static void main(String[] args) {
 //	        try {
-//	            new AioClient(8000).send("¿Í»§¶ËµÄÊı¾İ°ü");
+//	            new AioClient(8000).send("å®¢æˆ·ç«¯çš„æ•°æ®åŒ…");
 //	        } catch (IOException e) {
 //	            e.printStackTrace();
 //	        }
@@ -86,7 +86,7 @@ public class AioClient {
 	            clientChannel.read(buff).get();
 	            buff.flip();
 	            String content = utf.decode(buff).toString();
-	            System.out.println("·şÎñÆ÷ĞÅÏ¢£º"+content);
+	            System.out.println("æœåŠ¡å™¨ä¿¡æ¯ï¼š"+content);
 	        } catch (IOException ex) {
 	            ex.printStackTrace();
 	        }

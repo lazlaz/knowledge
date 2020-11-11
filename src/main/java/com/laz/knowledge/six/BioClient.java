@@ -10,7 +10,7 @@ public class BioClient {
 	final static String ADDRESS = "127.0.0.1";
     final static int PORT = 8765;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         Socket socket = null;
         BufferedReader in = null;
@@ -21,19 +21,11 @@ public class BioClient {
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(), true);
             reader = new BufferedReader(new InputStreamReader(System.in));
-            //Ïò·şÎñÆ÷¶Ë·¢ËÍÊı¾İ
-            //Ã¿½øĞĞÒ»´Îout.println£¬¾Í»áÊÕµ½Ò»´Î·şÎñÆ÷µÄÏìÓ¦¡£
-            out.println("½ÓÊÕµ½¿Í»§¶ËµÄÇëÇóÊı¾İ " + reader.readLine());
-            System.out.println("½ÓÊÕµ½·şÎñÆ÷·µ»ØÊı¾İ: " +  in.readLine());
+            //å‘æœåŠ¡å™¨ç«¯å‘é€æ•°æ®
+            //æ¯è¿›è¡Œä¸€æ¬¡out.printlnï¼Œå°±ä¼šæ”¶åˆ°ä¸€æ¬¡æœåŠ¡å™¨çš„å“åº”ã€‚
+            out.println("æ¥æ”¶åˆ°å®¢æˆ·ç«¯çš„è¯·æ±‚æ•°æ® " + reader.readLine());
 
-//            out.println("½ÓÊÕµ½¿Í»§¶ËµÄÇëÇóÊı¾İ1111...");
-//            System.out.println("Client: " +  in.readLine());
-//
-//            Thread.sleep(3000);
-//            out.println("½ÓÊÕµ½¿Í»§¶ËµÄÇëÇóÊı¾İ...");
-//            out.println("½ÓÊÕµ½¿Í»§¶ËµÄÇëÇóÊı¾İ1111...");
-//            String response = in.readLine();
-//            System.out.println("Client: " + response);
+           
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -61,5 +53,6 @@ public class BioClient {
             }
             socket = null;
         }
+        Thread.sleep(30000);
     }
 }

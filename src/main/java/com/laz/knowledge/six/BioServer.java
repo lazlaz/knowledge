@@ -26,7 +26,7 @@ class ServerHandler implements Runnable {
 	                body = in.readLine();
 	                if (body == null) break;
 	                System.out.println("Server :" + body);
-	                //out.println("·şÎñÆ÷¶Ë»ØËÍÏìµÄÓ¦Êı¾İ.");
+	                //out.println("æœåŠ¡å™¨ç«¯å›é€å“çš„åº”æ•°æ®.");
 	                out.println(reader.readLine());
 	            }
 	        } catch (Exception e) {
@@ -69,10 +69,10 @@ public class BioServer {
 	        try {
 	            server = new ServerSocket(PROT);
 	            System.out.println(" server start .. ");
-	            //½øĞĞ×èÈû
-	            while (true) {//ÕâÀïÓ¦¸ÃÑ­»·£¬Ê¹µÃ¿ÉÒÔ½ÓÊÜ¶à¸ö¿Í»§¶ËµÄÇëÇó¡£
+	            //è¿›è¡Œé˜»å¡
+	            while (true) {//è¿™é‡Œåº”è¯¥å¾ªç¯ï¼Œä½¿å¾—å¯ä»¥æ¥å—å¤šä¸ªå®¢æˆ·ç«¯çš„è¯·æ±‚ã€‚
 	                Socket socket = server.accept();
-	                //ĞÂ½¨Ò»¸öÏß³ÌÖ´ĞĞ¿Í»§¶ËµÄÈÎÎñ
+	                //æ–°å»ºä¸€ä¸ªçº¿ç¨‹æ‰§è¡Œå®¢æˆ·ç«¯çš„ä»»åŠ¡
 	                new Thread(new ServerHandler(socket)).start();
 	            }
 	        } catch (Exception e) {
