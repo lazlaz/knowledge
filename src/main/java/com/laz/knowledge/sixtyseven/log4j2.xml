@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="OFF">
+    <properties>
+        <!-- 文件输出格式 -->
+        <property name="PATTERN">[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n</property>
+        <!-- 日志文件存储路径，绝对，相对均可  ${main:LOG_ROOT}-->
+        <property name="LOG_HOME">D:/opt/log</property>
+        <!-- 日志 INFO 存储位置，绝对，相对均可 -->
+        <property name="LOG_INFO">info/au_info.log</property>
+        <!-- 日志 WARN 存储位置，绝对，相对均可 -->
+        <property name="LOG_WARN">warn/au_warn.log</property>
+        <!-- 日志 EEEOR 存储位置，绝对，相对均可 -->
+        <property name="LOG_ERROR">error/au_error.log</property>
+    </properties>
+    <appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <!--控制台只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch）-->
+            <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %class{36} %L %M -- %msg%xEx%n"/>
+        </Console>
+        <!-- INFO 日志格式 -->
+        <rollingFile name="RollingFileInfo" fileName="${LOG_HOME}/${LOG_INFO}"
+                     filePattern="${LOG_HOME}/${LOG_INFO}-%d{yyyy-MM-dd}-%i.log" append="true" immediateFlush="true">
+            <filters>
+                <thresholdFilter level="INFO" onMatch="NEUTRAL" onMismatch="DENY"/>
+                <thresholdFilter level="WARN" onMatch="DENY" onMismatch="ACCEPT"/>
+            </filters>
+            <patternLayout>
+                <pattern>%-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %class{36} %L %M -- %msg%xEx%n</pattern>
+            </patternLayout>
+            <policies>
+                <timeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <sizeBasedTriggeringPolicy size="100 MB"/>
+            </policies>
+        </rollingFile>
+        <!-- WARN 日志格式 -->
+        <rollingFile name="RollingFileWarn" fileName="${LOG_HOME}/${LOG_WARN}"
+                     filePattern="${LOG_HOME}/${LOG_WARN}-%d{yyyy-MM-dd}-%i.log" append="true" immediateFlush="true">
+            <filters>
+                <thresholdFilter level="WARN" onMatch="NEUTRAL" onMismatch="DENY"/>
+                <thresholdFilter level="ERROR" onMatch="DENY" onMismatch="ACCEPT"/>
+            </filters>
+            <patternLayout>
+                <pattern>%-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %class{36} %L %M -- %msg%xEx%n</pattern>
+            </patternLayout>
+            <policies>
+                <timeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <sizeBasedTriggeringPolicy size="100 MB"/>
+            </policies>
+        </rollingFile>
+ 
+        <!-- ERROR 日志格式 -->
+        <rollingFile name="RollingFileError" fileName="${LOG_HOME}/${LOG_ERROR}"
+                     filePattern="${LOG_HOME}/${LOG_ERROR}-%d{yyyy-MM-dd}-%i.log" append="true" immediateFlush="true">
+            <thresholdFilter level="ERROR" onMatch="ACCEPT" onMismatch="DENY"/>
+            <patternLayout>
+                <pattern>%-5level %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %class{36} %L %M - %msg%xEx%n</pattern>
+            </patternLayout>
+            <policies>
+                <timeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <sizeBasedTriggeringPolicy size="100 MB"/>
+            </policies>
+        </rollingFile>
+    </appenders>
+    <loggers>
+        <logger name="DEBUG" level="DEBUG" additivity="false"  includeLocation="true">
+            <appenderref ref="CONSOLE" />
+            <appenderref ref="RollingFileInfo" />
+            <appenderref ref="RollingFileWarn" />
+            <appenderref ref="RollingFileError" />
+        </logger>
+        <root level="INFO">
+            <appenderref ref="CONSOLE" />
+            <appenderref ref="RollingFileInfo" />
+            <appenderref ref="RollingFileWarn" />
+            <appenderref ref="RollingFileError" />
+        </root>
+    </loggers>
+</Configuration>
