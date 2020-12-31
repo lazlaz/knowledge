@@ -15,6 +15,7 @@ public class Tester implements ITester {
 	}
 	
 	public void doTest2() {
-		System.out.println("dd");
+		System.identityHashCode(this);
+		System.out.println(this.hashCode()+"   dd");
 	}
 }

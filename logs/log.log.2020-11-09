@@ -1,0 +1,167 @@
+[INFO ] 2020-10-26 14:02:05,742 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:02:05,961 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:04:13,739 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:04:13,882 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:05:00,143 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:05:00,284 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:05:15,174 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:05:15,314 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:05:40,899 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:05:41,042 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:06:24,616 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:06:24,755 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:06:43,772 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:06:43,912 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:08:00,952 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:08:01,095 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:08:21,948 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:08:22,091 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:08:49,452 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:08:49,594 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:12:33,562 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:12:33,701 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:16:18,484 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:16:18,624 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:16:38,240 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:16:38,382 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:16:52,861 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:16:53,000 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:17:05,698 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:17:05,842 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:17:28,109 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:17:28,344 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:17:37,432 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:17:37,666 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:18:10,391 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:18:10,600 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:24:10,129 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:24:10,270 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:24:11,048 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-3} inited
+[INFO ] 2020-10-26 14:24:11,063 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-4} inited
+[INFO ] 2020-10-26 14:24:23,910 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:24:24,048 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:33:39,629 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:33:39,765 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:41:43,881 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:41:44,032 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:42:28,308 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:42:28,457 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:42:39,553 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:42:39,697 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:43:18,437 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:43:18,590 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[INFO ] 2020-10-26 14:43:28,103 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-1} inited
+[INFO ] 2020-10-26 14:43:28,357 method:com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:985)
+{dataSource-2} inited
+[ERROR] 2020-10-26 14:44:59,831 method:com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1488)
+discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true, jdbcUrl : jdbc:mysql://localhost:3306/test?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true, lastPacketReceivedIdleMillis : 90111
+[ERROR] 2020-10-26 14:45:00,568 method:com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1488)
+discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/test2?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true, jdbcUrl : jdbc:mysql://localhost:3306/test2?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true, lastPacketReceivedIdleMillis : 92204
+[INFO ] 2020-10-27 10:34:07,928 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-27 10:34:07,939 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-27 10:34:07,940 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[192.168.5.9:10911] result: true
+[INFO ] 2020-10-27 10:35:34,517 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-27 10:35:34,523 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-27 10:35:34,524 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[192.168.5.9:10911] result: true
+[ERROR] 2020-10-27 14:37:57,537 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
+xxx
+[ERROR] 2020-10-27 14:38:06,167 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
+xxx
+[ERROR] 2020-10-27 14:38:36,442 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
+xxx--------------
+[INFO ] 2020-10-28 14:35:02,435 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-28 14:35:02,485 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-28 14:35:02,485 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[192.168.5.9:10911] result: true
+[INFO ] 2020-10-28 14:35:09,150 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[] result: true
+[INFO ] 2020-10-28 14:36:33,227 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[127.0.0.1:9876] result: true
+[INFO ] 2020-10-28 14:36:33,230 method:org.apache.rocketmq.logging.Slf4jLoggerFactory$Slf4jLogger.info(Slf4jLoggerFactory.java:95)
+closeChannel: close the connection to remote address[192.168.5.9:10911] result: true
+[INFO ] 2020-11-05 21:27:30,190 method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+[INFO ] 2020-11-05 21:27:30,204 method:org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+[INFO ] 2020-11-05 21:27:30,264 method:org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[INFO ] 2020-11-05 21:27:30,266 method:org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+[INFO ] 2020-11-05 21:27:30,268 method:org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+[INFO ] 2020-11-05 21:27:30,270 method:org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+[INFO ] 2020-11-05 21:27:30,270 method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+[INFO ] 2020-11-05 21:27:30,270 method:org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+[INFO ] 2020-11-05 21:27:30,279 method:org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
