@@ -3,11 +3,13 @@ package com.laz.knowledge.thirtyfive;
 import java.util.concurrent.ThreadFactory;
 
 import io.netty.bootstrap.Bootstrap;
+import io.netty.channel.AdaptiveRecvByteBufAllocator;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.ChannelInitializer;
+import io.netty.channel.ChannelOption;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
@@ -34,6 +36,7 @@ public class HelloWorldClient {
 		MyThreadFactory f = new MyThreadFactory();
 		EventLoopGroup group = new NioEventLoopGroup(count,f);
 		Bootstrap bootstrap = new Bootstrap();
+		bootstrap.option(ChannelOption.RCVBUF_ALLOCATOR, new AdaptiveRecvByteBufAllocator(64, 2024, 65536)); //设置TCP缓冲区大小
 		bootstrap.group(group).channel(NioSocketChannel.class)
 				.handler(new ChannelInitializer<SocketChannel>(){
 
