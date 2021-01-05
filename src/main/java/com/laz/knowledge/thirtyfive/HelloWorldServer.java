@@ -22,12 +22,15 @@ private int port;
 	}
 	
 	public void start(){
-		EventLoopGroup bossGroup = new NioEventLoopGroup(2) {
+		MyThreadFactory f = new MyThreadFactory();
+		//boss线程负责接收连接，
+		EventLoopGroup bossGroup = new NioEventLoopGroup(1,f) {
 			@Override
 			public String toString() {
 				return "bossGroup"+super.toString();
 			}
 		};//创建父子线程组
+		//word线程负责接收read write key
 		EventLoopGroup workGroup = new NioEventLoopGroup(2) {
 			@Override
 			public String toString() {

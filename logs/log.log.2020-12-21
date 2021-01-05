@@ -1,0 +1,4 @@
+[INFO ] 2020-12-21 17:11:13,224 method:org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:581)
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@51b7e5df: startup date [Mon Dec 21 17:11:13 CST 2020]; root of context hierarchy
+[INFO ] 2020-12-21 17:11:13,334 method:org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:317)
+Loading XML bean definitions from class path resource [SpringAOP.xml]
