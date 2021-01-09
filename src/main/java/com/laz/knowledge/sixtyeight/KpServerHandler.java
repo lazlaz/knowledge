@@ -39,7 +39,8 @@ public class KpServerHandler extends SimpleChannelInboundHandler {
         if (evt instanceof IdleStateEvent) {
             IdleStateEvent event = (IdleStateEvent) evt;
             if (IdleState.READER_IDLE.equals((event.state()))) {
-                ctx.writeAndFlush("heartbeat").addListener(ChannelFutureListener.CLOSE_ON_FAILURE) ;
+            	ctx.channel().close();
+              //  ctx.writeAndFlush("heartbeat").addListener(ChannelFutureListener.CLOSE_ON_FAILURE) ;
             }
         }
         super.userEventTriggered(ctx, evt);
