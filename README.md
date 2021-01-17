@@ -30,7 +30,7 @@
 ### 28 [semaphore](src/main/java/com/laz/knowledge/twentyeight/README.md)
 ### 29 [CountDownLatch使用及应用场景例子](src/main/java/com/laz/knowledge/twentynine/README.md)
 ### 30 [Redis 实现分布式锁](src/main/java/com/laz/knowledge/thirty/README.md)
-### 31 [Redisson实现分布式锁](src/main/java/com/laz/knowledge/thirtyone/README.md)
+### 31 [Redisson ZK实现分布式锁](src/main/java/com/laz/knowledge/thirtyone/README.md)
 ### 32 [Fork/Join框架基本使用](src/main/java/com/laz/knowledge/thirtytwo/README.md)
 ### 33 [Java NIO Transfer零拷贝与普通复制测试对比](src/main/java/com/laz/knowledge/thirtythree/README.md)
 ### 34 [对象的栈上内存分配](src/main/java/com/laz/knowledge/thirtyfour/README.md)
