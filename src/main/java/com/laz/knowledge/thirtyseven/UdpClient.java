@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class UdpClient {
 	public static void main(String[] args) throws IOException {
 		DatagramSocket client = new DatagramSocket();
-		InetAddress addr = InetAddress.getByName("127.0.0.1");
+		InetAddress addr = InetAddress.getByName("192.168.5.9");
 		int port = 5051;
 		byte[] sendBuf;
 		while (true) {

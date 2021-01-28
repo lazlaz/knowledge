@@ -3,12 +3,13 @@ package com.laz.knowledge.thirtyseven;
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
+import java.net.InetAddress;
 import java.net.SocketException;
 
 
 public class UdpServer {
 	public static void main(String[] args) throws IOException {
-		DatagramSocket server = new DatagramSocket(5051);
+		DatagramSocket server = new DatagramSocket(5051,InetAddress.getByName("192.168.5.9"));
 		byte[] recvBuf  = new byte[100];
 		DatagramPacket recvPacket = new DatagramPacket(recvBuf, recvBuf.length);
 		while (true) {

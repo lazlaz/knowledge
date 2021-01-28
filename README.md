@@ -57,7 +57,7 @@
 ### 55 [java debug 体系-jdi ](src/main/java/com/laz/knowledge/fiftyfive/README.md)
 ### 56 [设计模式代码示例](src/main/java/com/laz/knowledge/fiftysix/README.md)
 ### 57 [对象锁和类锁](src/main/java/com/laz/knowledge/fiftyseven/README.md)
-### 58 [令牌桶算法](src/main/java/com/laz/knowledge/fiftyeight/README.md) 
+### 58 [限流算法](src/main/java/com/laz/knowledge/fiftyeight/README.md) 
 ### 59 [高性能队列——Disruptor](src/main/java/com/laz/knowledge/fiftynine/README.md) 
 ### 60 [ShardingSphere纯独立示例](src/main/java/com/laz/knowledge/sixty/README.md)
 ### 61 [Rocketmq示例](src/main/java/com/laz/knowledge/sixtyone/README.md)
