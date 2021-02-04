@@ -69,3 +69,4 @@
 ### 67 [日志框架示例](src/main/java/com/laz/knowledge/sixtyseven/README.md)
 ### 68 [Netty 中的心跳检测机制示例](src/main/java/com/laz/knowledge/sixtyeight/README.md)
 ### 69 [Netty 工具类 —— HashedWheelTimer](src/main/java/com/laz/knowledge/sixtynine/README.md)
+### 70 [Java线程池](src/main/java/com/laz/knowledge/sixtyty/README.md)
