@@ -19,18 +19,18 @@ public class ClientDemo {
      * @param name
      */
     public void remoteCall(String name) {
-        HelloMessage.HelloRequest request = HelloMessage.HelloRequest.newBuilder().setName(name).build();
-        HelloMessage.HelloResponse response;
-        try {
-            // 基于访问地址 创建通道
-            Channel channel =  ManagedChannelBuilder.forAddress("localhost", 50051).usePlaintext().build();
-            // 利用通道 创建一个桩（Stub）对象
-            HelloGrpc.HelloBlockingStub blockingStub = HelloGrpc.newBlockingStub(channel);
-            //通过桩对象来调用远程方法
-            response = blockingStub.sayHello(request);
-        } catch (StatusRuntimeException e) {
-            return;
-        }
-        System.out.println("client端远程调用sayHello()的结果为：\n\n" + response.getMessage());
+//        HelloMessage.HelloRequest request = HelloMessage.HelloRequest.newBuilder().setName(name).build();
+//        HelloMessage.HelloResponse response;
+//        try {
+//            // 基于访问地址 创建通道
+//            Channel channel =  ManagedChannelBuilder.forAddress("localhost", 50051).usePlaintext().build();
+//            // 利用通道 创建一个桩（Stub）对象
+//            HelloGrpc.HelloBlockingStub blockingStub = HelloGrpc.newBlockingStub(channel);
+//            //通过桩对象来调用远程方法
+//            response = blockingStub.sayHello(request);
+//        } catch (StatusRuntimeException e) {
+//            return;
+//        }
+//        System.out.println("client端远程调用sayHello()的结果为：\n\n" + response.getMessage());
     }
 }

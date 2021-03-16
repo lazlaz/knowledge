@@ -71,3 +71,4 @@
 ### 69 [Netty 工具类 —— HashedWheelTimer](src/main/java/com/laz/knowledge/sixtynine/README.md)
 ### 70 [Java线程池](src/main/java/com/laz/knowledge/seventy/README.md)
 ### 71 [自定义Lambda类](src/main/java/com/laz/knowledge/seventyone/README.md)
+### 72 [Guice学习](src/main/java/com/laz/knowledge/seventytwo/README.md)
