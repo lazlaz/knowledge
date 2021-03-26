@@ -13,6 +13,11 @@
 	</properties>
 	<dependencies>
 		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>5.6.1</version>
+		</dependency>
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
@@ -317,6 +322,22 @@
 			<artifactId>aspectjrt</artifactId>
 			<version>1.9.6</version>
 		</dependency>
+
+		<!-- jrafe依赖开始 -->
+		<!-- jraft -->
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>jraft-core</artifactId>
+			<version>1.3.5</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.alipay.sofa</groupId>
+			<artifactId>jraft-rheakv-core</artifactId>
+			<version>1.3.5</version>
+		</dependency>
+		<!-- disruptor -->
+		<!-- 结束 -->
 	</dependencies>
 
 	<build>
