@@ -1,14 +1,2 @@
-[INFO ] 2021-01-09 14:57:03,594 method:com.laz.knowledge.sixtyeight.KpServer.start(KpServer.java:30)
-start server
-[INFO ] 2021-01-09 14:57:06,538 method:com.laz.knowledge.sixtyeight.KpServerHandler.channelActive(KpServerHandler.java:17)
-server channelActive
-[INFO ] 2021-01-09 14:57:36,497 method:com.laz.knowledge.sixtyeight.KpServerHandler.channelRead0(KpServerHandler.java:25)
-/192.168.5.9:51607===>server: heartbeat
-[INFO ] 2021-01-09 15:07:01,747 method:com.laz.knowledge.sixtyeight.KpServerHandler.channelActive(KpServerHandler.java:17)
-server channelActive
-[INFO ] 2021-01-09 15:07:30,441 method:com.laz.knowledge.sixtyeight.KpServer.start(KpServer.java:30)
-start server
-[INFO ] 2021-01-09 15:07:37,476 method:com.laz.knowledge.sixtyeight.KpServerHandler.channelActive(KpServerHandler.java:17)
-server channelActive
-[INFO ] 2021-01-09 15:07:52,909 method:com.laz.knowledge.sixtyeight.KpServerHandler.channelActive(KpServerHandler.java:17)
-server channelActive
+[INFO ] 2021-03-29 14:23:56,635 method:com.alipay.sofa.jraft.util.JRaftServiceLoader.newProvider(JRaftServiceLoader.java:275)
+SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.

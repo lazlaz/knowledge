@@ -1,6 +1,638 @@
-[ERROR] 2020-10-27 14:37:57,537 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
-xxx
-[ERROR] 2020-10-27 14:38:06,167 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
-xxx
-[ERROR] 2020-10-27 14:38:36,442 method:com.laz.knowledge.twentyseven.JDBCConnectionDemo.testMysql(JDBCConnectionDemo.java:23)
-xxx--------------
+[ERROR] 2021-03-26 10:39:40,362 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:39:41,434 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8082, remoting exception: com.alipay.remoting.rpc.exception.InvokeTimeoutException: Rpc invocation timeout[responseCommand TIMEOUT]! the address is 127.0.0.1:8082.
+[ERROR] 2021-03-26 10:39:44,069 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:39:46,691 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:39:49,243 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:39:51,252 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:39:53,927 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:39:55,975 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:39:58,445 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:01,379 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:03,482 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:06,028 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:08,677 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:10,889 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:13,410 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:15,501 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:17,889 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:20,547 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:22,799 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:25,656 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:28,467 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:30,543 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:32,686 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:34,986 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:37,775 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:40,584 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:43,223 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:45,738 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:47,985 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:50,450 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:53,023 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:55,846 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:40:58,200 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:00,817 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:03,103 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:05,823 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:07,982 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:10,442 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:12,520 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:14,868 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:17,847 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:20,634 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:23,211 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:25,317 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:27,723 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:30,219 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:32,244 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:34,907 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:36,074 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:37,202 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:37,652 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:38,253 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:39,261 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:40,066 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:40,866 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:41,875 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:42,381 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:43,053 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:44,068 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:44,955 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:45,671 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:46,679 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:47,220 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:48,098 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:41:49,105 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:49:27,804 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:49:29,790 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:49:29,815 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:49:31,795 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:04,414 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:05,467 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8082, remoting exception: com.alipay.remoting.rpc.exception.InvokeTimeoutException: Rpc invocation timeout[responseCommand TIMEOUT]! the address is 127.0.0.1:8082.
+[ERROR] 2021-03-26 10:50:08,455 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:11,278 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:13,561 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:16,126 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:19,127 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:22,061 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:24,565 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:27,347 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:29,660 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:32,602 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:34,616 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:37,312 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:39,575 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:42,179 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:44,249 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:45,343 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:46,994 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:48,454 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:49,708 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:50,758 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:51,846 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:53,734 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:54,626 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:56,186 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:57,175 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:58,893 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:50:59,901 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:01,432 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:02,538 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:03,817 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:04,801 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:06,096 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:07,211 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:08,971 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:09,885 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:11,290 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:11,931 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:13,310 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:14,427 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:15,414 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:17,430 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:18,245 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:19,879 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:21,043 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:21,965 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:24,634 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:24,979 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:27,210 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:27,989 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:30,322 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:30,998 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:33,860 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:34,036 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:36,267 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:37,044 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:39,447 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:40,051 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:42,701 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:43,058 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:45,460 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:46,064 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:48,385 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:49,071 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:51,116 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:52,079 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:54,761 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:55,085 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:51:57,688 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:51:58,090 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:00,949 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:01,098 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:03,757 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:04,103 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:06,547 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:07,110 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:09,566 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:10,118 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:12,750 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:13,125 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:15,167 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:16,132 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:18,677 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:19,140 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:21,612 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:22,145 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:24,176 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:25,151 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:27,800 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:28,158 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:30,383 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:31,164 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:33,312 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:34,170 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:52:36,332 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:52:37,178 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8081, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8081.
+[ERROR] 2021-03-26 10:53:29,471 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:30,498 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8082, remoting exception: com.alipay.remoting.rpc.exception.InvokeTimeoutException: Rpc invocation timeout[responseCommand TIMEOUT]! the address is 127.0.0.1:8082.
+[ERROR] 2021-03-26 10:53:32,909 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:35,046 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:37,471 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:40,256 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:42,262 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:44,436 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:47,037 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:49,235 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:51,243 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:53,506 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:55,903 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:53:58,192 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:00,224 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:02,635 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:05,247 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:08,084 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:10,141 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:12,451 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:14,940 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:17,668 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:19,689 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:22,078 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:24,534 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:27,540 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:30,117 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:32,816 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:35,345 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:37,584 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:39,850 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:42,839 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:45,120 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:47,934 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:50,622 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:53,531 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:55,589 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:54:58,113 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:00,356 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:02,400 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:05,156 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:07,298 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:10,071 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:12,364 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:14,833 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:17,687 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:20,381 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:22,460 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:24,628 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:27,255 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:29,660 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:31,821 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:34,642 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:37,238 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:39,688 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:42,556 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:44,655 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:47,158 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:49,321 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:51,667 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:54,310 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:56,983 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:55:59,936 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:02,036 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:04,935 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:07,940 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:10,141 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:12,204 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:15,076 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:17,758 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:19,958 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:22,879 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:25,833 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:27,956 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:30,588 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:32,720 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:35,716 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:38,693 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:40,842 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:43,726 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:45,914 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:48,735 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:51,496 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:54,308 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:57,243 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:56:59,997 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:57:02,663 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:57:04,786 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:57:07,612 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:57:10,004 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:57:12,031 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:57:14,966 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:57:17,720 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:57:20,621 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 10:57:22,856 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8083, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8083.
+[ERROR] 2021-03-26 11:18:30,130 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:31,139 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8002, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8002.
+[ERROR] 2021-03-26 11:18:33,519 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:34,522 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8002, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8002.
+[ERROR] 2021-03-26 11:18:37,343 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:38,347 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8002, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8002.
+[ERROR] 2021-03-26 11:18:40,531 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:41,535 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8002, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8002.
+[ERROR] 2021-03-26 11:18:44,122 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:45,125 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8002, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8002.
+[ERROR] 2021-03-26 11:18:47,723 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:48,725 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8002, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8002.
+[ERROR] 2021-03-26 11:18:51,412 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:52,415 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8002, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8002.
+[ERROR] 2021-03-26 11:18:54,835 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:55,840 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8002, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8002.
+[ERROR] 2021-03-26 11:18:58,376 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:58,839 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:59,908 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:18:59,925 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:01,017 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:01,826 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:02,621 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:03,627 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:03,629 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:04,956 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:04,984 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:05,991 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:05,992 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:07,065 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:07,082 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:08,088 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:08,091 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:09,198 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:09,954 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:10,962 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:10,962 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:12,106 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:12,179 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:13,185 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:13,186 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:14,290 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:14,365 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:15,371 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:15,372 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:17,116 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:17,286 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:18,291 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:18,293 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:19,657 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:20,276 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:20,892 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:21,860 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:21,896 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:22,866 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:23,087 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:24,095 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.
+[ERROR] 2021-03-26 11:19:24,684 method:com.alipay.sofa.jraft.rpc.impl.AbstractClientService.connect(AbstractClientService.java:157)
+Fail to connect 127.0.0.1:8003, remoting exception: com.alipay.remoting.exception.RemotingException: Create connection failed. The address is 127.0.0.1:8003.

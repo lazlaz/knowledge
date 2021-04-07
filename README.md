@@ -73,3 +73,4 @@
 ### 71 [自定义Lambda类](src/main/java/com/laz/knowledge/seventyone/README.md)
 ### 72 [Guice学习](src/main/java/com/laz/knowledge/seventytwo/README.md)
 ### 73 [JRaft计数器示例](src/main/java/com/laz/knowledge/seventythree/README.md)
+### 74 [Java mmap示例](src/main/java/com/laz/knowledge/seventyfour/README.md)
