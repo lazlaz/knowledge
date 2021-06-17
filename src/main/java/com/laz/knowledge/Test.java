@@ -1,6 +1,7 @@
 package com.laz.knowledge;
 
 public class Test {
+	
 	public static void main(String[] args) throws InterruptedException {
 		int a=23;
 		int b=30;

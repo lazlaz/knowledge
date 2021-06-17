@@ -74,3 +74,4 @@
 ### 72 [Guice学习](src/main/java/com/laz/knowledge/seventytwo/README.md)
 ### 73 [JRaft计数器示例](src/main/java/com/laz/knowledge/seventythree/README.md)
 ### 74 [Java mmap示例](src/main/java/com/laz/knowledge/seventyfour/README.md)
+### 75 [CPU伪共享验证示例](src/main/java/com/laz/knowledge/seventyfive/README.md)
