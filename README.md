@@ -34,7 +34,7 @@
 ### 32 [Fork/Join框架基本使用](src/main/java/com/laz/knowledge/thirtytwo/README.md)
 ### 33 [Java NIO Transfer零拷贝与普通复制测试对比](src/main/java/com/laz/knowledge/thirtythree/README.md)
 ### 34 [对象的栈上内存分配](src/main/java/com/laz/knowledge/thirtyfour/README.md)
-### 35 [Netty TCP粘包 拆包示例](src/main/java/com/laz/knowledge/thirtyfive/README.md)
+### 35 [Netty 示例](src/main/java/com/laz/knowledge/thirtyfive/README.md)
 ### 36 [验证URLClassLoader加载一个类，是否会自动加载该类种import的类](src/main/java/com/laz/knowledge/thirtysix/README.md)
 ### 37 [JAVA UDP示例](src/main/java/com/laz/knowledge/thirtyseven/README.md)
 ### 38 [Java实现各种加密算法示例](src/main/java/com/laz/knowledge/thirtyeight/README.md)
